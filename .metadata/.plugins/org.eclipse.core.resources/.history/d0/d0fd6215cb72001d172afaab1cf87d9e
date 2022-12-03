@@ -1,0 +1,8 @@
+package mavenempp;
+
+public class Emp {
+	private int empid;
+	private String empname;
+	
+
+}
