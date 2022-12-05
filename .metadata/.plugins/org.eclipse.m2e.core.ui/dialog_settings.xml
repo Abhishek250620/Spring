@@ -2,8 +2,11 @@
 <section name="Workbench">
 	<section name="MavenProjectWizardLocationPage">
 		<list key="location">
-			<item value="C:\Users\Abhishek M R\eclipse-workspace\mavenproject\src\main"/>
+			<item value="C:\Users\Abhishek M R\eclipse-workspace"/>
+			<item value="C:\Users\Abhishek M R\eclipse-workspace\mavenproject"/>
+			<item value="C:\Users\Abhishek M R\eclipse-workspace\mavenproject\src\test\java"/>
 			<item value="C:\Users\Abhishek M R\eclipse-workspace\mavenproject\pom.xml"/>
+			<item value="C:\Users\Abhishek M R\eclipse-workspace\mavenproject\src\main"/>
 			<item value="C:\Users\Abhishek M R\eclipse-workspace\mavenproject\src"/>
 			<item value="C:\Users\Abhishek M R\eclipse-workspace\mavenproject\src\main\java\com\jsp\iocproject\Test.java"/>
 		</list>
@@ -29,13 +32,10 @@
 	</section>
 	<section name="Maven2ProjectWizardArchifactPage">
 		<list key="package">
-			<item value="Maven2.Emp"/>
 		</list>
 		<list key="groupId">
-			<item value="Maven2"/>
 		</list>
 		<list key="artifactId">
-			<item value="Emp"/>
 		</list>
 		<list key="projectNameTemplate">
 			<item value="[artifactId]"/>
@@ -51,10 +51,18 @@
 	</section>
 	<section name="MavenProjectWizardArtifactPage">
 		<list key="groupId">
+			<item value="com.jsp"/>
+			<item value="com.abhi"/>
+			<item value="com.jsdr"/>
 		</list>
 		<list key="name">
 		</list>
 		<list key="artifactId">
+			<item value="Mavenemp"/>
+			<item value="Maven2"/>
+			<item value="MavenEMp"/>
+			<item value="MavenEmp"/>
+			<item value="ioc1"/>
 		</list>
 		<list key="projectNameTemplate">
 			<item value="[artifactId]"/>
