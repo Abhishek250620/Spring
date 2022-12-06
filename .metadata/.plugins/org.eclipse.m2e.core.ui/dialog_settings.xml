@@ -51,13 +51,14 @@
 	</section>
 	<section name="MavenProjectWizardArtifactPage">
 		<list key="groupId">
-			<item value="com.jsp"/>
 			<item value="com.abhi"/>
+			<item value="com.jsp"/>
 			<item value="com.jsdr"/>
 		</list>
 		<list key="name">
 		</list>
 		<list key="artifactId">
+			<item value="collection"/>
 			<item value="Mavenemp"/>
 			<item value="Maven2"/>
 			<item value="MavenEMp"/>

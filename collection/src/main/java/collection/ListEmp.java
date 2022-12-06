@@ -1,11 +1,11 @@
 package collection;
 
-import java.util.List;
+import java.util.Set;
 
 public class ListEmp {
 	private int empid;
 	private String empname;
-	private List<String> projects;
+	private Set<String> projects;
 	public int getEmpid() {
 		return empid;
 	}
@@ -18,10 +18,10 @@ public class ListEmp {
 	public void setEmpname(String empname) {
 		this.empname = empname;
 	}
-	public List<String> getProjects() {
+	public Set<String> getProjects() {
 		return projects;
 	}
-	public void setProjects(List<String> projects) {
+	public void setProjects(Set<String> projects) {
 		this.projects = projects;
 	}
 	@Override
