@@ -7,25 +7,14 @@
     http://www.springframework.org/schema/beans/spring-beans.xsd
     http://www.springframework.org/schema/context
     http://www.springframework.org/schema/context/spring-context.xsd">
-
-	<bean name="obj" class="collection.Company" p:companyname="Google">
-		<property name="empcodeandname">
-			<map>
-			<!-- Map takes input within entry tag -->
-				<entry>
-					<key>
-						<value>111</value>
-					</key>
-					<value>John</value>
-				</entry>
-				
-				<entry key="333"><value>Allean</value></entry>
-				
-				<entry key="222" value="Smith"></entry>
-				<list></list>
-				
-			</map>
-		</property>
-
+	<bean name="obj" class="constructor.Student">
+		<constructor-arg value="111"></constructor-arg>
+		<constructor-arg value="Smith" />
+		<constructor-arg>
+			<list>
+				<value>java</value>
+				<value>sql</value>
+			</list>
+		</constructor-arg>
 	</bean>
-</beans> 
+</beans>

@@ -58,6 +58,9 @@
 		<list key="name">
 		</list>
 		<list key="artifactId">
+			<item value="Constructor"/>
+			<item value="Refrence"/>
+			<item value="NewMaven"/>
 			<item value="collection"/>
 			<item value="Mavenemp"/>
 			<item value="Maven2"/>
